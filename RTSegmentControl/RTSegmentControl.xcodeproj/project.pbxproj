@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33EA13A21CACC479005575DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13A11CACC479005575DC /* main.m */; };
+		33EA13A51CACC479005575DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13A41CACC479005575DC /* AppDelegate.m */; };
+		33EA13A81CACC479005575DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13A71CACC479005575DC /* ViewController.m */; };
+		33EA13AB1CACC479005575DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33EA13A91CACC479005575DC /* Main.storyboard */; };
+		33EA13AD1CACC479005575DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EA13AC1CACC479005575DC /* Assets.xcassets */; };
+		33EA13B01CACC479005575DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33EA13AE1CACC479005575DC /* LaunchScreen.storyboard */; };
+		33EA13BB1CACC479005575DC /* RTSegmentControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13BA1CACC479005575DC /* RTSegmentControlTests.m */; };
+		33EA13C61CACC479005575DC /* RTSegmentControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13C51CACC479005575DC /* RTSegmentControlUITests.m */; };
+		33EA13D61CACC4C6005575DC /* RTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13D51CACC4C6005575DC /* RTSegmentedControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33EA13B71CACC479005575DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33EA13951CACC479005575DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EA139C1CACC479005575DC;
+			remoteInfo = RTSegmentControl;
+		};
+		33EA13C21CACC479005575DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33EA13951CACC479005575DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33EA139C1CACC479005575DC;
+			remoteInfo = RTSegmentControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33EA139D1CACC479005575DC /* RTSegmentControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTSegmentControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EA13A11CACC479005575DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33EA13A31CACC479005575DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33EA13A41CACC479005575DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33EA13A61CACC479005575DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33EA13A71CACC479005575DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33EA13AA1CACC479005575DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33EA13AC1CACC479005575DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33EA13AF1CACC479005575DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33EA13B11CACC479005575DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EA13B61CACC479005575DC /* RTSegmentControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTSegmentControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EA13BA1CACC479005575DC /* RTSegmentControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTSegmentControlTests.m; sourceTree = "<group>"; };
+		33EA13BC1CACC479005575DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EA13C11CACC479005575DC /* RTSegmentControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTSegmentControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33EA13C51CACC479005575DC /* RTSegmentControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTSegmentControlUITests.m; sourceTree = "<group>"; };
+		33EA13C71CACC479005575DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EA13D41CACC4C6005575DC /* RTSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSegmentedControl.h; sourceTree = "<group>"; };
+		33EA13D51CACC4C6005575DC /* RTSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSegmentedControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33EA139A1CACC479005575DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA13B31CACC479005575DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA13BE1CACC479005575DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33EA13941CACC479005575DC = {
+			isa = PBXGroup;
+			children = (
+				33EA139F1CACC479005575DC /* RTSegmentControl */,
+				33EA13B91CACC479005575DC /* RTSegmentControlTests */,
+				33EA13C41CACC479005575DC /* RTSegmentControlUITests */,
+				33EA139E1CACC479005575DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33EA139E1CACC479005575DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33EA139D1CACC479005575DC /* RTSegmentControl.app */,
+				33EA13B61CACC479005575DC /* RTSegmentControlTests.xctest */,
+				33EA13C11CACC479005575DC /* RTSegmentControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33EA139F1CACC479005575DC /* RTSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				33EA13D31CACC4A7005575DC /* RTSegmentControl */,
+				33EA13A31CACC479005575DC /* AppDelegate.h */,
+				33EA13A41CACC479005575DC /* AppDelegate.m */,
+				33EA13A61CACC479005575DC /* ViewController.h */,
+				33EA13A71CACC479005575DC /* ViewController.m */,
+				33EA13A91CACC479005575DC /* Main.storyboard */,
+				33EA13AC1CACC479005575DC /* Assets.xcassets */,
+				33EA13AE1CACC479005575DC /* LaunchScreen.storyboard */,
+				33EA13B11CACC479005575DC /* Info.plist */,
+				33EA13A01CACC479005575DC /* Supporting Files */,
+			);
+			path = RTSegmentControl;
+			sourceTree = "<group>";
+		};
+		33EA13A01CACC479005575DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33EA13A11CACC479005575DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33EA13B91CACC479005575DC /* RTSegmentControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				33EA13BA1CACC479005575DC /* RTSegmentControlTests.m */,
+				33EA13BC1CACC479005575DC /* Info.plist */,
+			);
+			path = RTSegmentControlTests;
+			sourceTree = "<group>";
+		};
+		33EA13C41CACC479005575DC /* RTSegmentControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33EA13C51CACC479005575DC /* RTSegmentControlUITests.m */,
+				33EA13C71CACC479005575DC /* Info.plist */,
+			);
+			path = RTSegmentControlUITests;
+			sourceTree = "<group>";
+		};
+		33EA13D31CACC4A7005575DC /* RTSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				33EA13D41CACC4C6005575DC /* RTSegmentedControl.h */,
+				33EA13D51CACC4C6005575DC /* RTSegmentedControl.m */,
+			);
+			path = RTSegmentControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33EA139C1CACC479005575DC /* RTSegmentControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EA13CA1CACC479005575DC /* Build configuration list for PBXNativeTarget "RTSegmentControl" */;
+			buildPhases = (
+				33EA13991CACC479005575DC /* Sources */,
+				33EA139A1CACC479005575DC /* Frameworks */,
+				33EA139B1CACC479005575DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTSegmentControl;
+			productName = RTSegmentControl;
+			productReference = 33EA139D1CACC479005575DC /* RTSegmentControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33EA13B51CACC479005575DC /* RTSegmentControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EA13CD1CACC479005575DC /* Build configuration list for PBXNativeTarget "RTSegmentControlTests" */;
+			buildPhases = (
+				33EA13B21CACC479005575DC /* Sources */,
+				33EA13B31CACC479005575DC /* Frameworks */,
+				33EA13B41CACC479005575DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EA13B81CACC479005575DC /* PBXTargetDependency */,
+			);
+			name = RTSegmentControlTests;
+			productName = RTSegmentControlTests;
+			productReference = 33EA13B61CACC479005575DC /* RTSegmentControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33EA13C01CACC479005575DC /* RTSegmentControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33EA13D01CACC479005575DC /* Build configuration list for PBXNativeTarget "RTSegmentControlUITests" */;
+			buildPhases = (
+				33EA13BD1CACC479005575DC /* Sources */,
+				33EA13BE1CACC479005575DC /* Frameworks */,
+				33EA13BF1CACC479005575DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33EA13C31CACC479005575DC /* PBXTargetDependency */,
+			);
+			name = RTSegmentControlUITests;
+			productName = RTSegmentControlUITests;
+			productReference = 33EA13C11CACC479005575DC /* RTSegmentControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33EA13951CACC479005575DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rabbit;
+				TargetAttributes = {
+					33EA139C1CACC479005575DC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 84SCG89399;
+					};
+					33EA13B51CACC479005575DC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 84SCG89399;
+						TestTargetID = 33EA139C1CACC479005575DC;
+					};
+					33EA13C01CACC479005575DC = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 84SCG89399;
+						TestTargetID = 33EA139C1CACC479005575DC;
+					};
+				};
+			};
+			buildConfigurationList = 33EA13981CACC479005575DC /* Build configuration list for PBXProject "RTSegmentControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33EA13941CACC479005575DC;
+			productRefGroup = 33EA139E1CACC479005575DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33EA139C1CACC479005575DC /* RTSegmentControl */,
+				33EA13B51CACC479005575DC /* RTSegmentControlTests */,
+				33EA13C01CACC479005575DC /* RTSegmentControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33EA139B1CACC479005575DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EA13B01CACC479005575DC /* LaunchScreen.storyboard in Resources */,
+				33EA13AD1CACC479005575DC /* Assets.xcassets in Resources */,
+				33EA13AB1CACC479005575DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA13B41CACC479005575DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA13BF1CACC479005575DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33EA13991CACC479005575DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EA13A81CACC479005575DC /* ViewController.m in Sources */,
+				33EA13A51CACC479005575DC /* AppDelegate.m in Sources */,
+				33EA13D61CACC4C6005575DC /* RTSegmentedControl.m in Sources */,
+				33EA13A21CACC479005575DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA13B21CACC479005575DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EA13BB1CACC479005575DC /* RTSegmentControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33EA13BD1CACC479005575DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EA13C61CACC479005575DC /* RTSegmentControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33EA13B81CACC479005575DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33EA139C1CACC479005575DC /* RTSegmentControl */;
+			targetProxy = 33EA13B71CACC479005575DC /* PBXContainerItemProxy */;
+		};
+		33EA13C31CACC479005575DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33EA139C1CACC479005575DC /* RTSegmentControl */;
+			targetProxy = 33EA13C21CACC479005575DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33EA13A91CACC479005575DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33EA13AA1CACC479005575DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33EA13AE1CACC479005575DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33EA13AF1CACC479005575DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33EA13C81CACC479005575DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33EA13C91CACC479005575DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33EA13CB1CACC479005575DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTSegmentControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabbit.RTSegmentControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33EA13CC1CACC479005575DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RTSegmentControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabbit.RTSegmentControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33EA13CE1CACC479005575DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RTSegmentControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabbit.RTSegmentControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTSegmentControl.app/RTSegmentControl";
+			};
+			name = Debug;
+		};
+		33EA13CF1CACC479005575DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RTSegmentControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabbit.RTSegmentControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RTSegmentControl.app/RTSegmentControl";
+			};
+			name = Release;
+		};
+		33EA13D11CACC479005575DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RTSegmentControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabbit.RTSegmentControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RTSegmentControl;
+			};
+			name = Debug;
+		};
+		33EA13D21CACC479005575DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RTSegmentControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rabbit.RTSegmentControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RTSegmentControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33EA13981CACC479005575DC /* Build configuration list for PBXProject "RTSegmentControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EA13C81CACC479005575DC /* Debug */,
+				33EA13C91CACC479005575DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33EA13CA1CACC479005575DC /* Build configuration list for PBXNativeTarget "RTSegmentControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EA13CB1CACC479005575DC /* Debug */,
+				33EA13CC1CACC479005575DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33EA13CD1CACC479005575DC /* Build configuration list for PBXNativeTarget "RTSegmentControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EA13CE1CACC479005575DC /* Debug */,
+				33EA13CF1CACC479005575DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33EA13D01CACC479005575DC /* Build configuration list for PBXNativeTarget "RTSegmentControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33EA13D11CACC479005575DC /* Debug */,
+				33EA13D21CACC479005575DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33EA13951CACC479005575DC /* Project object */;
+}
