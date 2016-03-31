@@ -26,3 +26,5 @@ YJSegmentedControl * segment = [RTSegmentedControl segmentedControlFrame:CGRectM
 
 ************************************************************************************************
 注意:一定要按照上面写的来呦
+
+ ![image](https://github.com/RabbitBell/RTSegmentControl/raw/master/RTSegmentControl.png)

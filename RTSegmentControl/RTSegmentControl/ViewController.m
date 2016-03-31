@@ -9,6 +9,12 @@
 #import "ViewController.h"
 #import "RTSegmentedControl.h"
 
+/**
+  *第1步:将 RTSegmentedControl 文件拖入工程
+  *第2步:引入头文件 RTSegmentedControl.h
+ */
+
+
 @interface ViewController ()<RTSegmentedControlDelegate>
 
 @end
@@ -17,7 +23,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
+    //第3步 创建需要的选择器
     NSArray * btnDataSource = @[@"未付款", @"已付款", @"待收货"];
     
     //  第4部  调用创建
@@ -31,16 +38,12 @@
 #pragma mark -- 遵守代理 实现代理方法
 - (void)segumentSelectionChange:(NSInteger)selection{
     if (selection == 0) {
-        NSLog(@"新动态");
-        
+        NSLog(@"未付款");
     }else if (selection == 1){
-        NSLog(@"朋友圈");
+        NSLog(@"已付款");
     }else{
-        NSLog(@"iOS教程");
-        
-        
+        NSLog(@"待收货");
     }
-    
 }
 
 @end
