@@ -15,7 +15,7 @@
 		33EA13B01CACC479005575DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33EA13AE1CACC479005575DC /* LaunchScreen.storyboard */; };
 		33EA13BB1CACC479005575DC /* RTSegmentControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13BA1CACC479005575DC /* RTSegmentControlTests.m */; };
 		33EA13C61CACC479005575DC /* RTSegmentControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13C51CACC479005575DC /* RTSegmentControlUITests.m */; };
-		33EA13D61CACC4C6005575DC /* RTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13D51CACC4C6005575DC /* RTSegmentedControl.m */; };
+		33EA13E31CACD0AA005575DC /* RTSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EA13E01CACD0AA005575DC /* RTSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		33EA13C11CACC479005575DC /* RTSegmentControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTSegmentControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EA13C51CACC479005575DC /* RTSegmentControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTSegmentControlUITests.m; sourceTree = "<group>"; };
 		33EA13C71CACC479005575DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33EA13D41CACC4C6005575DC /* RTSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSegmentedControl.h; sourceTree = "<group>"; };
-		33EA13D51CACC4C6005575DC /* RTSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSegmentedControl.m; sourceTree = "<group>"; };
+		33EA13DF1CACD0AA005575DC /* RTSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSegmentedControl.h; sourceTree = "<group>"; };
+		33EA13E01CACD0AA005575DC /* RTSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 		33EA139F1CACC479005575DC /* RTSegmentControl */ = {
 			isa = PBXGroup;
 			children = (
-				33EA13D31CACC4A7005575DC /* RTSegmentControl */,
+				33EA13DE1CACD0AA005575DC /* RTSegmentedControl */,
 				33EA13A31CACC479005575DC /* AppDelegate.h */,
 				33EA13A41CACC479005575DC /* AppDelegate.m */,
 				33EA13A61CACC479005575DC /* ViewController.h */,
@@ -144,13 +144,13 @@
 			path = RTSegmentControlUITests;
 			sourceTree = "<group>";
 		};
-		33EA13D31CACC4A7005575DC /* RTSegmentControl */ = {
+		33EA13DE1CACD0AA005575DC /* RTSegmentedControl */ = {
 			isa = PBXGroup;
 			children = (
-				33EA13D41CACC4C6005575DC /* RTSegmentedControl.h */,
-				33EA13D51CACC4C6005575DC /* RTSegmentedControl.m */,
+				33EA13DF1CACD0AA005575DC /* RTSegmentedControl.h */,
+				33EA13E01CACD0AA005575DC /* RTSegmentedControl.m */,
 			);
-			path = RTSegmentControl;
+			path = RTSegmentedControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +288,7 @@
 			files = (
 				33EA13A81CACC479005575DC /* ViewController.m in Sources */,
 				33EA13A51CACC479005575DC /* AppDelegate.m in Sources */,
-				33EA13D61CACC4C6005575DC /* RTSegmentedControl.m in Sources */,
+				33EA13E31CACD0AA005575DC /* RTSegmentedControl.m in Sources */,
 				33EA13A21CACC479005575DC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +513,7 @@
 				33EA13CC1CACC479005575DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33EA13CD1CACC479005575DC /* Build configuration list for PBXNativeTarget "RTSegmentControlTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				33EA13CF1CACC479005575DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33EA13D01CACC479005575DC /* Build configuration list for PBXNativeTarget "RTSegmentControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				33EA13D21CACC479005575DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
